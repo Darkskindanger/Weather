@@ -111,8 +111,8 @@ function App() {
                   app.unit === "C"
                     ? activeStyle
                     : app.isDark
-                    ? { color: "#000" }
-                    : null
+                      ? { color: "#000" }
+                      : null
                 }
                 onClick={() => {
                   dispatchApp({ type: "UNIT", payload: "C" });
@@ -128,8 +128,8 @@ function App() {
                   app.unit === "F"
                     ? activeStyle
                     : app.isDark
-                    ? { color: "#000" }
-                    : null
+                      ? { color: "#000" }
+                      : null
                 }
               >
                 °F
@@ -141,7 +141,6 @@ function App() {
           <Highlights />
           <h2 className="heading">This Week</h2>
           <Forecast />
-          <Footer />
         </div>
       </section>
     </AppContext.Provider>

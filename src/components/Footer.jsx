@@ -10,40 +10,7 @@ function Footer() {
   };
   return (
     <>
-      <footer className="footer">
-        <a
-          href="https://github.com/hicodersofficial/weather-app"
-          target="_blank"
-          rel="noreferrer"
-          style={isDark ? anchorStyle : null}
-        >
-          <i class="fa-brands fa-github"></i> <span>GitHub</span>
-        </a>
-        <a
-          href="https://github.com/hicodersofficial/weather-app"
-          target="_blank"
-          rel="noreferrer"
-          style={isDark ? anchorStyle : null}
-        >
-          <i class="fa-solid fa-code-fork"></i> <span>Fork</span>
-        </a>
-        <a
-          href="https://github.com/hicodersofficial/weather-app"
-          target="_blank"
-          rel="noreferrer"
-          style={isDark ? anchorStyle : null}
-        >
-          <i class="fa-solid fa-star"></i> <span>Star</span>
-        </a>
-        <a
-          href="https://www.instagram.com/p/CfoixJ0vM_P/"
-          target="_blank"
-          rel="noreferrer"
-          style={isDark ? anchorStyle : null}
-        >
-          <i class="fa-brands fa-instagram"></i> <span>Instagram</span>
-        </a>
-      </footer>
+      <footer className="footer"></footer>
     </>
   );
 }
